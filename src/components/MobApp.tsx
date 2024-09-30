@@ -6,7 +6,7 @@ import playstore from "../../public/playStore.svg";
 const MobApp = () => {
   return (
     <div className="max-container pt-10 bg-getApp-img max-sm:bg-center  bg-no-repeat  max-sm:h-[600px] min-h-[750px] w-full flex flex-col">
-      <h1 className="text-white max-sm:-mt-10 mt-6 text-center font-black text-6xl max-sm:text-base max-sm:px-16 max-sm:font-bold  text-wrap">
+      <h1 className="text-white max-sm:-mt-10 max-sm:pt-6 mt-6 text-center font-black text-6xl max-sm:text-base max-sm:px-16 max-sm:font-bold  text-wrap">
         DOWNLOAD THE APEXLOADS MOBILE APP
       </h1>
 
