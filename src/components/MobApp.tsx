@@ -10,7 +10,7 @@ const MobApp = () => {
         DOWNLOAD THE APEXLOADS MOBILE APP
       </h1>
 
-          <div className="flex mt-52 max-sm:hidden justify-around items-center">
+          <div className="flex mt-52 max-sm:hidden justify-around items-center ">
             <div className="text-gray-200 bg-black border-[1px] border-stone-500 rounded-md w-fit">
               <button className="flex items-center gap-1 ">
                 <Image src={apple} alt="app-store" />
@@ -20,7 +20,7 @@ const MobApp = () => {
                 </div>
               </button>
             </div>
-            <div className="text-gray-200 bg-black border-[1px] border-stone-500 rounded-md w-fit">
+            <div className="text-gray-200 bg-black border-[1px] pl-3 border-stone-500 rounded-md w-fit">
               <button className="flex items-center gap-1">
                 <Image src={playstore} alt="playstore" />
                 <div className="flex-col">
