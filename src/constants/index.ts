@@ -65,7 +65,7 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const SERVICES = [
   {
-    title: 'Freight Forwarders/Brokers:',
+    title: 'Freight Forwarders',
     ServImg: '/service-1.png',
     description:
       'At Apex Loads, we understand the critical role of freight forwarders and brokers in global logistics.',
@@ -105,16 +105,5 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: 'Admin Officer', value: '123-456-7890' },
     { label: 'Email Officer', value: 'hilink@akinthil.com' },
-  ],
-};
-
-export const SOCIALS = {
-  title: 'Social',
-  links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
   ],
 };

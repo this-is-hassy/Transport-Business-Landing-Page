@@ -16,11 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth scrollbar">
-      <body className="overflow-x-hidden bg-black">
+      <body className=" bg-black">
         <InfoHeader />
         <GoToTop />
         <Navbar />
+        <main className="overflow-hidden relative">
         {children}
+        </main>
       </body>
     </html>
   );

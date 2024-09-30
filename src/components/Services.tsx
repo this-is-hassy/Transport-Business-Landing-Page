@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className="padding-container  text-white py-10 max-container">
       <div className="pb-5 md:pt-10 flexBetween ">
-        <h4 className="text-5xl font-black text-white">
+        <h4 className="text-5xl font-black text-white max-sm:text-3xl">
           Services We <span className="text-red">Offer</span>
         </h4>
         <Button title="Book A Free Demo" className="btn_red max-md:hidden" />
@@ -16,7 +16,7 @@ const Services = () => {
       <div className="lg:grid lg:grid-cols-3 grid-cols-1 gap-8 pt-3 overflow-x-auto hide-scrollbar flex lg:flex-none flex-row">
   {SERVICES.map((service) => (
     <div key={service.title} className="w-full min-w-[250px] lg:min-w-0">
-      <div className="bg-white">
+      <div className="bg-white ">
         <Image
           src={service.ServImg}
           alt="service"

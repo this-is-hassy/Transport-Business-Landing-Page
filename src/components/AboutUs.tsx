@@ -8,6 +8,7 @@ import Button from "./Button";
 const AboutUs = () => {
   return (
     <div className="bg-map-bg-img max-container w-full min-h-[1064px] lg:min-h-[600px]  bg-no-repeat bg-cover flexCenter relative -z-10">
+      <div className="overflow-x-hidden">
       <div className="absolute top-16 right-0">
         <Image src={red_strip} alt="side-img" />
       </div>
@@ -16,6 +17,7 @@ const AboutUs = () => {
       </div>
       <div className="absolute top-20 -right-48">
         <Image src={truck} alt="truck" />
+      </div>
       </div>
 
       <div className="absolute md:-mt-[500px] lg:-mt-[50px] mt-[350px]">

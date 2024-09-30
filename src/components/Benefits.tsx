@@ -6,7 +6,7 @@ const Benefits = () => {
   return (
     <div className="padding-container max-container text-white bg-black ">
       <div className="pb-5 md:pt-10">
-        <h4 className="text-5xl font-black text-white md:hidden">
+        <h4 className="text-5xl font-black text-white md:hidden max-sm:text-3xl">
           Why Choose <span className="text-red">Us</span>
         </h4>
       </div>

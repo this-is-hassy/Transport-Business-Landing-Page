@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="padding-container max-container flexBetween text-white bg-black">
       <div className="flexCenter gap-[26px]">
         <Link href={"/"}>
-          <Image src={logo} alt="logo" />
+          <Image src={logo} alt="logo"  />
         </Link>
 
         <div className="hidden text-white regular-16 lg:flex">
@@ -66,7 +66,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flexCenter lg:hidden gap-4">
+      <div className="flexCenter lg:hidden gap-4 pr-3">
         <Image src={profile} alt="profile" />
         <Image src={menu} alt="menu" className="text-white" />
       </div>
