@@ -8,12 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors:{
+        red:'#D91E27',
+        white:'#FFFFFF',
+      },
+      backgroundImage: {
+        'hero-bg-img':"url(/main-bg.png)",
+        'map-bg-img':"url(/map.svg)",
+        'user-img':"url(/user.png)",
+        'getApp-img':"url(/getApp.png",
+        'playButton-img':"url(/play.svg",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 };
 export default config;
