@@ -1,14 +1,13 @@
 import Image from "next/image";
 
 type ButtonProps = {
-  children? : any;
   type?: 'button' | 'submit';
   title: string;
   icon?: string;
   className?: string;
 }
 
-const Button = ({ type, title, icon,  className, children }: ButtonProps) => {
+const Button = ({ type, title, icon,  className }: ButtonProps) => {
   return (
     <button
     className={`flex gap-4 ${className}`}
